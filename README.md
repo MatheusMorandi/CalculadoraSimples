@@ -1,51 +1,35 @@
-# First Level Heading
+# 🧮 Calculadora Simples - Qt + C++
 
-Paragraph.
-
-## Second Level Heading
-
-Paragraph.
-
-- bullet
-+ other bullet
-* another bullet
-    * child bullet
-
-1. ordered
-2. next ordered
-
-### Third Level Heading
-
-Some *italic* and **bold** text and `inline code`.
-
-An empty line starts a new paragraph.
-
-Use two spaces at the end  
-to force a line break.
-
-A horizontal ruler follows:
+Este é um projeto simples de uma calculadora gráfica desenvolvido com **Qt Creator** e **C++**, ideal para fins de aprendizado sobre:
+- Interface gráfica com Qt
+- Programação orientada a objetos em C++
+- Uso de sinais, slots e funções lambda
 
 ---
 
-Add links inline like [this link to the Qt homepage](https://www.qt.io),
-or with a reference like [this other link to the Qt homepage][1].
+## 📸 Interface
 
-    Add code blocks with
-    four spaces at the front.
+A calculadora possui uma interface gráfica com os seguintes componentes:
+- `QLineEdit`: Para exibir os números digitados e o resultado.
+- `QPushButton`: Botões de 0 a 9, operações básicas (`+`, `-`, `*`, `/`), igual (`=`) e limpar (`C`).
+- `QGridLayout`: Usado para organizar os botões como um teclado de calculadora.
 
-> A blockquote
-> starts with >
->
-> and has the same paragraph rules as normal text.
+---
 
-First Level Heading in Alternate Style
-======================================
+## ⚙️ Funcionalidades
 
-Paragraph.
+- Entrada de números (0–9)
+- Operações matemáticas básicas: adição, subtração, multiplicação e divisão
+- Exibição do resultado com o botão `=`
+- Botão `C` para limpar tudo
 
-Second Level Heading in Alternate Style
----------------------------------------
+---
 
-Paragraph.
+## 🧠 Tecnologias e Conceitos
 
-[1]: https://www.qt.io
+- **Qt 5/6 com Qt Creator**
+- **C++ moderno (uso de lambdas)**
+- **Sinais e slots** com `connect()`
+- Organização de variáveis como **atributos privados** da classe
+- Separação em arquivos `.h` e `.cpp`
+- Validação para **divisão por zero**
